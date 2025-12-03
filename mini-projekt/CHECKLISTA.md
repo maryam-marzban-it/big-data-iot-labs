@@ -59,8 +59,15 @@ Redovisning: Fredag 5 december##  INNAN NI BÖRJAR
 
 ### Val av features
 - [ ] Valt minst 3 features (X)
-- [ ] Valt target (Y = Vitvaror_Energi_Wh)
+    - temprature
+    - wind speed
+    - humidity
+- [ ] Valt target (Y = air_pullation_index)
 - [ ] Förklarat VARFÖR ni valde dessa features
+    - vi har valt tempratu för att ju värmare det är är det mer molekyl röresle och mer torrhet vilket kan leda till mer      air_pollution_index
+    - wind speed bidrar väldigt mycket till luftförorening, vinden kan ta med sig förorenat luft vidare till en plats.
+    - humidity 
+
 
 ### Bygg modell
 - [ ] Importerat sklearn
